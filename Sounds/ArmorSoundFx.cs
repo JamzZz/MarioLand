@@ -11,15 +11,16 @@ namespace MarioLand.Sounds
         ref bool crit, ref bool customDamage, ref bool playSound, ref bool genGore, ref PlayerDeathReason damageSource)
         {
             MarioPlayer mp = player.GetModPlayer<MarioPlayer>();
+            WarioPlayer wp = player.GetModPlayer<WarioPlayer>();
 
             int currentSound = 0;
             int customSoundType = 0;
 
-            if (mp.Mario == true)
+            if (mp.Mario)
             {
                 playSound = false;
 
-                if (mp.Invincible == false)
+                if (!mp.Invincible)
                 {
                     currentSound = mod.GetSoundSlot(SoundType.Custom, "Sounds/mario_hurt");
                     customSoundType = SoundLoader.customSoundType;
@@ -27,11 +28,11 @@ namespace MarioLand.Sounds
                 }
             }
 
-            else if (mp.Luigi == true)
+            else if (mp.Luigi)
             {
                 playSound = false;
 
-                if (mp.Invincible == false)
+                if (!mp.Invincible)
                 {
                     currentSound = mod.GetSoundSlot(SoundType.Custom, "Sounds/luigi_hurt");
                     customSoundType = SoundLoader.customSoundType;
@@ -39,7 +40,7 @@ namespace MarioLand.Sounds
                 }
             }
 
-            else if (mp.Wario == true)
+            else if (wp.Wario)
             {
                 playSound = false;
 

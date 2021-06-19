@@ -29,6 +29,9 @@ namespace MarioLand.Items.Armor.Wario
 
         public override void UpdateArmorSet(Player player)
         {
+            WarioPlayer wp = player.GetModPlayer<WarioPlayer>();
+            wp.PowerUp1 = true;
+
             player.setBonus = "HP, Melee damage \nand Defense up\n" +
                 "Powered up!";
 
@@ -36,7 +39,7 @@ namespace MarioLand.Items.Armor.Wario
 
             player.statLifeMax2 += 15;
             player.meleeDamage  += 0.15f;
-            player.statDefense  += 10;
+            player.statDefense  += 8;
         }
 
         public override void AddRecipes()

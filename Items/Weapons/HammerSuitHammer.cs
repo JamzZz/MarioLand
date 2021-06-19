@@ -42,7 +42,7 @@ namespace MarioLand.Items.Weapons
         public override bool CanUseItem(Player player)
         {
             MarioPlayer mp = player.GetModPlayer<MarioPlayer>();
-            if (mp.Hammer == true && mp.MarioChar == true)
+            if (mp.Hammer && mp.MarioChar)
             {
                 return true;
             }

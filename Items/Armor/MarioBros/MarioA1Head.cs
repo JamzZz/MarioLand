@@ -18,26 +18,22 @@ namespace MarioLand.Items.Armor.MarioBros
             item.width = 18;
             item.height = 18;
             item.value = 0;
-            item.rare = 10;
-            item.defense = 3;
+            item.rare = ItemRarityID.Red;
         }
 
-        public override bool IsArmorSet(Item head, Item body, Item legs)
+        public override void UpdateEquip(Player player)
         {
-            return body.type == mod.ItemType("MarioBody") && legs.type == mod.ItemType("BrosLegs");
-        }
+            MarioPlayer mp = player.GetModPlayer<MarioPlayer>();
+            mp.PowerUp1 = true;
 
-        public override void UpdateArmorSet(Player player)
-        {
-            player.setBonus = "Melee damage, Melee speed\n" +
-                "and Defense up\n" +
-                "Powered up!";
+            player.setBonus = "Melee damage and Melee speed up\n" +
+            "Powered up!";
 
             player.AddBuff(mod.BuffType("MarioBuff"), 1);
 
             player.meleeDamage += 0.1f;
             player.meleeSpeed  += 0.1f;
-            player.statDefense += 4;
+            player.statDefense += 5;
         }
 
         public override void AddRecipes()

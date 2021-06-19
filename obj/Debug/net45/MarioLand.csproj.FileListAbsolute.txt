@@ -12,15 +12,14 @@ C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\D
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\MonoMod.RuntimeDetour.dll
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\MonoMod.Utils.dll
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\MP3Sharp.dll
-C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\Newtonsoft.Json.dll
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\NVorbis.dll
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\ReLogic.dll
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\Steamworks.NET.dll
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\System.ValueTuple.dll
-C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\Terraria.exe
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\TerrariaHooks.dll
-C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\Terraria.pdb
-C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\Terraria.xml
+C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\tModLoader.exe
+C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\tModLoader.pdb
+C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\tModLoader.xml
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\MonoMod.RuntimeDetour.xml
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\MonoMod.Utils.xml
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\obj\Debug\net45\MarioLand.csprojAssemblyReference.cache
@@ -29,3 +28,4 @@ C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\obj\D
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\obj\Debug\net45\MarioLand.csproj.CopyComplete
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\obj\Debug\net45\MarioLand.dll
 C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\obj\Debug\net45\MarioLand.pdb
+C:\Users\henkc\Documents\My Games\Terraria\ModLoader\Mod Sources\MarioLand\bin\Debug\net45\Newtonsoft.Json.dll

@@ -66,6 +66,11 @@ namespace MarioLand.Items.Costumes
 
     public class CapeMarioHead : EquipTexture { public override bool DrawHead() { return false; } }
     public class CapeMarioBody : EquipTexture { public override bool DrawBody() { return false; } }
+    public class CapeMarioLegs : EquipTexture { public override bool DrawLegs() { return false; } }
+
+//  Rabbit Mario
+    
+    public class CarrotMarioHead : EquipTexture { public override bool DrawHead() { return false; } }
 
 // Builder Mario
 
