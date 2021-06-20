@@ -1,5 +1,5 @@
 author = Team Mario Land
 version = 0.1.7.5.1
 displayName = [c/d91616:Mario Land]
-homepage = https://discord.gg/vp2U4ThKcV
+homepage = https://discord.gg/FdkEw35fye
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, *.pyxel
